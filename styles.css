@@ -1,13 +1,21 @@
+html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     background-color: #D5E1EF;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 230.5px 560px;
+    padding-bottom: 0px;
 }
 
 .qr-code-container {
     display: flex;
+    flex-basis: 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
